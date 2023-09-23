@@ -91,9 +91,46 @@ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes
 theme: butterfly
 ```
 
-安装插件，如果你沒有 pug 以及 stylus 的渲染器，請下載安裝：
+安装插件，如果你沒有 pug 以及 stylus 的渲染器，请下载安裝：
 
 ```
 npm install hexo-renderer-pug hexo-renderer-stylus --save
+```
+
+## 7. 实现步骤
+
+1. 将github的hexo_demo仓库文件拷贝到本地电脑
+
+```
+git clone git@github.com:helloliyilin/hexo_demo.git			# ssh连接方式
+git clone https://github.com/helloliyilin/hexo_demo.git		# https连接方式
+```
+
+2. 在本地电脑桌面或其他工作区创建一个hexo目录，在目录下右键 -> Git Bash Here，在终端输入命令：
+
+```
+hexo init
+```
+
+3. 把git clone后的文件和文件夹复制粘贴到本地工作区的hexo目录
+
+![hexo工程必要目录](https://img1.imgtp.com/2023/09/23/Ov77nLva.png "hexo工程必要目录")
+
+hexo项目完整的工程树形结构如下
+
+![hexo工程完整目录](https://img1.imgtp.com/2023/09/23/pFDKVNxU.png "hexo工程完整目录")
+
+4. 新建一个.md文件，执行命令后会存放该工程下的`source/_posts`
+
+```
+hexo new "文件名字"
+```
+
+5. 可以使用typora或其他软件打开并编写`"文件名字".md`这个文件。
+
+6. 一键部署到你的博客网站`helloliyilin.github.io`
+
+```
+hexo clean && hexo g && hexo d
 ```
 
