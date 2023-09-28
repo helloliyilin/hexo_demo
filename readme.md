@@ -131,6 +131,7 @@ hexo new "文件名字"
 6. 一键部署到你的博客网站`helloliyilin.github.io`
 
 ```
+npm install hexo-renderer-pug hexo-renderer-stylus --save  #安装pug以及stylus的渲染器
 npm install hexo-deployer-git --save  # 安装hexo-deployer-git，才能使用hexo d命令
 hexo clean && hexo g && hexo d
 ```
