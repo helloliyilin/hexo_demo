@@ -25,7 +25,7 @@ git commit -m "提交信息"	//将暂存区中的修改提交到Git仓库
 git branch -a		//-a参数表示显示所有分支
 ```
 
-![image-20240112163700970](./img/git分支1.png)
+![image-20240112163700970](./../img/git分支1.png)
 
 创建一个新的分支main。
 
@@ -35,7 +35,7 @@ git branch main
 
 现在有两个分支了，`*master`表示当前工作在master分支。
 
-![image-20240112163806901](./img/git分支2.png)
+![image-20240112163806901](./../img/git分支2.png)
 
 我们现在可以进行切换分支，每次切换分支前记得要执行`git add .`和`git commit -m "提交信息"`命令。
 
@@ -53,7 +53,7 @@ git commit -m "提交信息"
 
 我们发现main分支有两个文件，1.txt和2.txt。
 
-![image-20240112164615935](./img/git分支3.png)
+![image-20240112164615935](./../img/git分支3.png)
 
 如果我们此时在切换回去master分支，那么只有1.txt文件，也就是说两个分支是独立的。
 
@@ -62,7 +62,7 @@ git checkout master
 ls
 ```
 
-![image-20240112165005203](./img/git分支4.png)
+![image-20240112165005203](./../img/git分支4.png)
 
 
 
@@ -80,7 +80,7 @@ git remote add origin git@github.com:helloliyilin/new.git	//本地仓库与远�
 git remote -v
 ```
 
-![image-20240112170153532](./img/git分支5.png)
+![image-20240112170153532](./../img/git分支5.png)
 
 现在可以把本地仓库推送到GitHub的远程仓库了。
 
@@ -90,11 +90,11 @@ git push origin main	//origin表示远程仓库的名称，main是要推送的�
 
 推送的时候发现问题，推送不上去远程仓库
 
-![image-20240112170846181](./img/git分支6.png)
+![image-20240112170846181](./../img/git分支6.png)
 
 这个原因是由于我远程仓库中存在一些你本地没有的更改，因此无法直接推送。这种情况通常发生在两个不同的仓库试图推送到相同的引用（ref）上。这可能是由于其他仓库已经进行了更新并推送了这些更改，而你的本地仓库尚未获取这些更改。
 
-![image-20240112171553559](./img/git分支7.png)
+![image-20240112171553559](./../img/git分支7.png)
 
 1.首先，确保你已经获取了远程仓库的所有更改。可以使用`git pull`命令来拉取远程仓库的最新更改。例如，如果你想要拉取名为`origin`的远程仓库，可以运行以下命令：
 

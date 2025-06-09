@@ -127,11 +127,11 @@ hexo init
 
 3. 把git clone后的文件和文件夹复制粘贴到本地工作区的hexo目录
 
-![hexo工程必要目录](./../../img/hexo工程必要目录1.png "hexo工程必要目录")
+![hexo工程必要目录](./../img/hexo工程必要目录.png "hexo工程必要目录")
 
 hexo项目完整的工程树形结构如下
 
-![hexo工程完整目录](./../../img/hexo工程必要目录2.png "hexo工程完整目录")
+![hexo工程完整目录](./../img/hexo工程完整目录.png "hexo工程完整目录")
 
 4. 新建一个.md文件，执行命令后会存放该工程下的`source/_posts`
 

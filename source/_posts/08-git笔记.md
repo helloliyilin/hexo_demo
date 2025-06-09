@@ -51,5 +51,5 @@ cover: https://picshack.net/ib/WvLmrf8xXq.jpg
 
 **流程图**
 
-![git流程图.png](./img/git流程图.png "git流程图")
+![git流程图.png](./../img/git流程图.png "git流程图")
 

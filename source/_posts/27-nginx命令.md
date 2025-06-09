@@ -26,9 +26,9 @@ sudo nginx
 
 nginx的进程可以分为master和worker进程。master进程就像公司的老板，老板只有一个，而worker进程就是公司的“打工人”，“打工人”肯定有很多的啦。worker进程数量可以通过配置文件来调整。
 
-![image-20240117111124397](E:\work\note\博客笔记\img\nginx命令1.png)
+![nginx命令1](./../img/nginx命令1.png)
 
-![image-20240117111728669](https://gitee.com/helloliyilin/picgoimg/raw/master/img/image-20240117111728669.png)
+![nginx进程示意图](./../img/nginx进程示意图.png)
 
 查看80端口被占用情况
 
@@ -36,15 +36,15 @@ nginx的进程可以分为master和worker进程。master进程就像公司的老
 sudo lsof -i:80
 ```
 
-![image-20240117111907213](E:\work\note\博客笔记\img\nginx命令2.png)
+![nginx命令2](./../img/nginx命令2.png)
 
 其实前面执行完`sudo ngnix`并且没有报错，那么你在浏览器输入`localhost`就能跳转到nginx的默认界面。但是不知道什么情况，我的电脑跳转到微软的IIS Windowns的界面，百度一下后把IIS服务关闭就可以了，如果还是跳转的IIS界面就清除一下浏览器的缓存。
 
-![image-20240117113931335](https://gitee.com/helloliyilin/picgoimg/raw/master/img/image-20240117113931335.png)
+![关闭IIS服务](./../img/关闭IIS服务.png)
 
 这时候在浏览器输入`localhost`就能跳转到nginx的默认界面。
 
-![image-20240117114121316](E:\work\note\博客笔记\img\nginx命令3.png)
+![nginx命令3](./../img/nginx命令3.png)
 
 如果想停止nginx服务,可以执行
 
@@ -74,7 +74,7 @@ nginx -V		//注意是大写的V
 
 nginx的配置文件的位置，不同的linux版本可能位置补贴，以你查看到的为主。
 
-![image-20240117115326490](E:\work\note\博客笔记\img\nginx命令4.png)
+![nginx命令4](./../img/nginx命令4.png)
 
 还没写完（待续）
 

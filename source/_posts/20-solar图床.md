@@ -12,4 +12,4 @@ tags: 软件
 
 登录账号，打开开发者模式，按照下面参考图查看cookie值。
 
-![获取cookie](./img/获取cookie.png)
+![获取cookie](./../img/获取cookie.png)

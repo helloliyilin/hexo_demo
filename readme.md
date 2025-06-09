@@ -18,12 +18,22 @@ git config --global user.email "GitHub 邮箱"
 ssh-keygen -t rsa -C "GitHub 邮箱"
 ```
 
-在家目录下有.ssh目录中有两个文件，id_rsa，id_rsa.pub。用记事本打开id_rsa.pub公钥文件，或者用命令：`cat ~/.ssh/id_rsa.pub`，然后复制密钥内容到GitHub账号的设置下的`SSH and GPG keys`
+1、在家目录下有.ssh目录中有两个文件，id_rsa，id_rsa.pub。用记事本打开id_rsa.pub公钥文件，或者用命令：`cat ~/.ssh/id_rsa.pub`，然后复制密钥内容到GitHub账号的设置下的`SSH and GPG keys`
+
+2、创建ssh的配置文件：~/.ssh/config
+
+```bash
+Host github
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+```
 
 **验证连接：**
 
-```
-ssh -T git@github.com
+```bash
+ssh -T git@github.com # 没创建~/.ssh/config文件时测试命令
+ssh -T github # 创建~/.ssh/config文件时测试命令 
 ```
 
 ## 3. 创建 Github Pages 仓库
@@ -38,13 +48,25 @@ GitHub 主页右上角加号 -> New repository
 
 新建一个文件夹用来存放 Hexo 的程序文件。打开该文件夹，右键 -> Git Bash Here。
 
-使用 npm 一键安装 Hexo 博客程序：
+1、npm换源：
+
+```bash
+npm config get registry # 查看当前源
+
+npm config set registry https://registry.npmmirror.com # 淘宝镜像源
+npm config set registry https://mirrors.cloud.tencent.com/npm/ # 腾讯云镜像源
+npm config set registry https://npm.aliyun.com # 阿里云镜像源
+
+npm config set registry https://registry.npmjs.org/ # 还原为官方源
+```
+
+2、使用 npm 一键安装 Hexo 博客程序：
 
 ```
 npm install -g hexo-cli
 ```
 
-Hexo 初始化和本地预览
+3、Hexo 初始化和本地预览
 
 ```
 hexo init    # 初始化
@@ -114,11 +136,11 @@ hexo init
 
 3. 把git clone后的文件和文件夹复制粘贴到本地工作区的hexo目录
 
-![hexo工程必要目录](.../../img/hexo工程必要目录1.png "hexo工程必要目录")
+![hexo工程必要目录](./img/hexo工程必要目录1.png "hexo工程必要目录")
 
 hexo项目完整的工程树形结构如下
 
-![hexo工程完整目录](.../../img/hexo工程必要目录2.png "hexo工程完整目录")
+![hexo工程完整目录](./img/hexo工程必要目录2.png "hexo工程完整目录")
 
 4. 新建一个.md文件，执行命令后会存放该工程下的`source/_posts`
 

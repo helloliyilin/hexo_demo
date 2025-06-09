@@ -15,23 +15,23 @@ TLS1.2于2008年发布，提供更高的安全性，并为提高性能和增强�
 
 客户端向服务器请求，客户端与服务器打招呼，告诉服务器他支持tls的版本和加密套件
 
-![image-20231101112607629](./img/tls协议包1.png)
+![image-20231101112607629](./../img/tls协议包1.png)
 
 2.Server Hello
 
 服务器收到请求后进行响应，服务器告诉客户端确定支持的TLS版本和加密套件
 
-![image-20231101112931617](./img/tls协议包2.png)
+![image-20231101112931617](./../img/tls协议包2.png)
 
 3.Certificate, Server Key Exchange, Server HeIIo Done
 
 Certificate：服务器继续响应发送服务器自己的证书，这样浏览器就可以根据对照自己的证书信任列表来确认这个服务器是否可靠。
 
-![image-20231101113639948](./img/tls协议包3.png)
+![image-20231101113639948](./../img/tls协议包3.png)
 
 Server Key Exchange：服务器接下来继续响应发送公钥给客户端。
 
-![image-20231101113804056](./img/tls协议包4.png)
+![image-20231101113804056](./../img/tls协议包4.png)
 
 Server HeIIo Done：服务器告诉客户端响应完成。
 
@@ -39,7 +39,7 @@ Server HeIIo Done：服务器告诉客户端响应完成。
 
 Client Key Exchange：客户端对服务器响应的回应，生成第三个随机数，也叫预主密钥，这个预主密钥会用刚刚收到的公钥进行加密，然后把加密后的随机数发给服务器，这是数正是下图的`Pubkey`。
 
-![image-20231101114527814](./img/tls协议包5.png)
+![image-20231101114527814](./../img/tls协议包5.png)
 
 Change Cipher Spec：客户端告诉服务器之后的数据就用商议好的算法和密钥来加密。
 
@@ -47,5 +47,5 @@ Encrypted Handshake message：表示客户端的TLS协商已经没问题，加�
 
 5.Encrypted Handshake message：服务器表示也准备好了，表示TLS的握手已经成功，可以给数据加密进行交换。
 
-![image-20231101115536932](./img/tls协议包6.png)
+![image-20231101115536932](./../img/tls协议包6.png)
 
