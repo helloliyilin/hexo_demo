@@ -103,5 +103,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:helloliyilin/helloliyilin.github.io.git
+  repo: github:helloliyilin/helloliyilin.github.io.git
+  # repo: github.com:helloliyilin/helloliyilin.github.io.git
   branch: main
