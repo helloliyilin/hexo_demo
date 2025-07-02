@@ -31,10 +31,10 @@ https://www.oracle.com/java/technologies/downloads/#java21
 ![image.png][7]
 
 
-[1]: https://blog.lyl.us.kg/usr/uploads/2025/05/3582369375.png
-[2]: https://blog.lyl.us.kg/usr/uploads/2025/05/1661998044.png
-[3]: https://blog.lyl.us.kg/usr/uploads/2025/05/1390931991.png
-[4]: https://blog.lyl.us.kg/usr/uploads/2025/05/3982891636.png
-[5]: https://blog.lyl.us.kg/usr/uploads/2025/05/3786182353.png
-[6]: https://blog.lyl.us.kg/usr/uploads/2025/05/2080937328.png
-[7]: https://blog.lyl.us.kg/usr/uploads/2025/05/1451329550.png
+[1]: https://2c67fdf.webp.li/df907bc89e2650ac65f19ce833ba3e11.png
+[2]: https://2c67fdf.webp.li/3de67ff9161187b0c70794cbc9ba866c.png
+[3]: https://2c67fdf.webp.li/f2a6345578f158a899a0ac4225f4992d.png
+[4]: https://2c67fdf.webp.li/57876638c69c5c343eaa2ce8dc560c89.png
+[5]: https://2c67fdf.webp.li/f7e040eb647743edddf1466679bd824d.png
+[6]: https://2c67fdf.webp.li/abff6b12df5ec1b29a59fbf6df1cc73d.png
+[7]: https://2c67fdf.webp.li/05a948d0c9b0f547f043c3d30d89fa18.png

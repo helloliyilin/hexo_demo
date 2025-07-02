@@ -73,14 +73,15 @@ https://github.com/2dust/v2rayNG/releases?after=0.6.11
 ![image.png][11]
 
 
-[1]: https://blog.lyl.us.kg/usr/uploads/2025/06/649213654.png
-[2]: https://blog.lyl.us.kg/usr/uploads/2025/06/916393332.png
-[3]: https://blog.lyl.us.kg/usr/uploads/2025/06/3033134021.png
-[4]: https://blog.lyl.us.kg/usr/uploads/2025/06/3514922207.png
-[5]: https://blog.lyl.us.kg/usr/uploads/2025/06/1955417118.png
-[6]: https://blog.lyl.us.kg/usr/uploads/2025/06/2295095965.png
-[7]: https://blog.lyl.us.kg/usr/uploads/2025/06/2175983895.png
-[8]: https://blog.lyl.us.kg/usr/uploads/2025/06/3333652230.png
-[9]: https://blog.lyl.us.kg/usr/uploads/2025/06/683132877.png
-[10]: https://blog.lyl.us.kg/usr/uploads/2025/06/4211970662.png
-[11]: https://blog.lyl.us.kg/usr/uploads/2025/06/4287419833.png
+[1]: https://2c67fdf.webp.li/5e88d5ddcacaf57b4fea476ba11381f6.png
+[2]: https://2c67fdf.webp.li/bfc08e0c9b2502867a293469ea678e09.png
+[3]: https://2c67fdf.webp.li/b959f47d86a9914b2ea81782a3b20ef4.png
+[4]: https://2c67fdf.webp.li/91ef01ce6c340e36ba24e3c0784e6871.png
+[5]: https://2c67fdf.webp.li/5cb9186a40253667de037de209d1a0ed.png
+[6]: https://2c67fdf.webp.li/419dd1a450f7721b469d962446796b1a.png
+[7]: https://2c67fdf.webp.li/6e64abfc2bda367856790cdb37503fa9.png
+[8]: https://2c67fdf.webp.li/54f7e49be1a152ca04528cc316788881.png
+[9]: https://2c67fdf.webp.li/f04fc14fe335d0dc2966ccf2b19846fa.png
+[10]: https://2c67fdf.webp.li/1388d36b2f609b33ed987da60e31ae9b.png
+[11]: https://2c67fdf.webp.li/79454958f9559c475bab84b464abca95.png
+
