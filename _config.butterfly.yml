@@ -51,12 +51,12 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/helloliyilin/picgoimg//img/25.jpg
+index_img: https://2c67fdf.webp.li/071aa41efcee5843229a6a5a97df245b.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/gh/helloliyilin/picgoimg//img/24.jpg
+default_top_img: https://2c67fdf.webp.li/9f93db89de62ac141025593267f88f8a.jpg
 # The banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/helloliyilin/picgoimg//img/14.jpg
+archive_img: https://2c67fdf.webp.li/598311183d9db83c547a208aa4821581.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
